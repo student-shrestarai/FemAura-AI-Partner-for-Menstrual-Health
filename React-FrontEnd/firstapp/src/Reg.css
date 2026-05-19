@@ -1,0 +1,118 @@
+/* Full Page Layout */
+.reg-page-container {
+  background: linear-gradient(135deg, #ffd4e3, #ffe6f1, #ffd0ea);
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.reg-card {
+  width: 380px;
+  padding: 40px;
+  border-radius: 20px;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  animation: fadeUp 0.35s ease-in-out;
+}
+
+.reg-title {
+  color: #d63380;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Form Box */
+.reg-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.reg-input-group {
+  text-align: left;
+}
+
+.reg-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.reg-input-box {
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  margin-top: 6px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.reg-input-box:focus {
+  border-color: #d63380;
+  box-shadow: 0 0 5px rgba(214, 51, 128, 0.4);
+}
+
+/* Buttons */
+.reg-btn,
+.goto-login-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Register Button */
+.reg-btn {
+  background: #d63380;
+  color: #fff;
+}
+
+.reg-btn:hover {
+  background: #b52868;
+}
+
+/* Login Redirect Button */
+.goto-login-btn {
+  background: #ff72b3;
+  color: white;
+  margin-top: -10px;
+}
+
+.goto-login-btn:hover {
+  background: #e85fa0;
+}
+
+/* Text */
+.reg-login-text {
+  margin-top: -5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Success/Error Message */
+.reg-message {
+  margin-top: 15px;
+  color: green;
+  font-size: 14px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
