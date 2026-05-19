@@ -21,9 +21,7 @@ FemAura is an AI-powered menstrual health tracking application designed to help 
 
 ### Frontend
 - React.js
-- HTML
-- CSS
-- JavaScript
+
 
 ### Backend
 - Java
@@ -37,10 +35,7 @@ FemAura is an AI-powered menstrual health tracking application designed to help 
 ### AI / Machine Learning
 - Python
 - FastAPI
-- Scikit-learn
-- Random Forest Classifier
-- Pandas
-- NumPy
+
 
 ### Additional Technologies
 - Git & GitHub
