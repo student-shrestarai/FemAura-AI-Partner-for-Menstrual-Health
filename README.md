@@ -77,19 +77,19 @@ screenshots/     -> Application screenshots
 ## Screenshots
 
 ### Registration Page
-![Registration](Screenshots/a. Registration Page.png)
+![Registration](Screenshots/a.RegistrationPage.png)
 
 ### Login Page
-![Login](Screenshots/b.Login Page.png)
+![Login](Screenshots/b.LoginPage.png)
 
 ### Dashboard
 ![Dashboard](Screenshots/c.DashBoard.png)
 
 ### FemAura Input Form
-![FemAura Input Form](Screenshots/d.FemAura Input Fom.png)
+![FemAura Input Form](Screenshots/d.FemAuraInputFom.png)
 
 ### Health Report
-![Health Report](Screenshots/e.Health Report.png)
+![Health Report](Screenshots/e.HealthReport.png)
 
 ---
 
