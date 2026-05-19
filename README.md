@@ -93,7 +93,7 @@ screenshots/     -> Application screenshots
 ### Frontend
 
 ```bash
-cd frontend
+cd React-FrontEnd
 npm install
 npm start
 ```
@@ -101,7 +101,7 @@ npm start
 ### Backend
 
 ```bash
-cd backend
+cd SpringBoot-BackEnd
 mvn spring-boot:run
 ```
 
